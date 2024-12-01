@@ -41,5 +41,17 @@ Sigue los pasos a continuación para configurar y ejecutar el asistente:
 
 ### **1. Clonar el repositorio**
 ```bash
-git clone https://github.com/tuusuario/asistente-voz-python.git
+git clone https://github.com/ImanolCB/Asistente.git
+
 cd asistente-voz-python
+
+python -m venv venv
+
+xcopy *.py venv\ /Y
+xcopy requirements.txt venv\ /Y
+
+venv\Scripts\activate
+
+pip install -r requirements.txt
+
+
