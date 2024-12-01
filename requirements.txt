@@ -1,0 +1,8 @@
+pyttsx3
+SpeechRecognition
+pywhatkit
+pyjokes
+wikipedia-api
+pyaudio
+googletrans
+pyowm

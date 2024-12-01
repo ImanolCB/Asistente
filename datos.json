@@ -1,0 +1,257 @@
+{
+    "intents": [
+        {
+            "tag": "saludos",
+            "patterns": [
+                "hola",
+                "buenos días",
+                "hey",
+                "holi",
+                "buenas"
+            ],
+            "responses": [
+                "Ah. Hola.",
+                "¡Buenos días! Diría. Si lo fueran.",
+                "Dime!",
+                "Cuentame,¿Qué quieres?"
+            ]
+        },
+        {
+            "tag": "despedidas",
+            "patterns": [
+                "adiós",
+                "hasta luego",
+                "chao",
+                "apagate",
+                "vete"
+            ],
+            "responses": [
+                "Nos vemos. Adiós.",
+                "¡Que te vaya bien!",
+                "Te esperaré"
+            ]
+        },
+        {
+            "tag": "Tag aprendido 2",
+            "patterns": [
+                "¿te gusta el pimiento?"
+            ],
+            "responses": [
+                "Más que tu hermana."
+            ]
+        },
+        {
+            "tag": "Tag aprendido 3",
+            "patterns": [
+                "que te puedo preguntar?"
+            ],
+            "responses": [
+                "Preguntame lo que quieras, si no tengo la respuesta me tendrás que dar tu una respuesta"
+            ]
+        },
+        {
+            "tag": "Tag aprendido 4",
+            "patterns": [
+                "de que color es el cielo?"
+            ],
+            "responses": [
+                "Azul"
+            ]
+        },
+        {
+            "tag": "Tag aprendido 5",
+            "patterns": [
+                "¿que estilo de música te gusta?"
+            ],
+            "responses": [
+                "Me gusta bastante el tecno"
+            ]
+        },
+        {
+            "tag": "Tag aprendido 6",
+            "patterns": [
+                "eres inteligente?"
+            ],
+            "responses": [
+                "Cada vez que me preguntas más"
+            ]
+        },
+        {
+            "tag": "Tag aprendido 7",
+            "patterns": [
+                "adios"
+            ],
+            "responses": [
+                "adios"
+            ]
+        },
+        {
+            "tag": "ingredientes",
+            "patterns": [
+                "Tengo huevos, jamón y queso, ¿qué puedo cocinar?",
+                "Solo tengo arroz, ¿alguna idea?",
+                "¿Qué puedo hacer con pollo y tomate?",
+                "¿Qué recetas hay con verduras?"
+            ],
+            "responses": [
+                "Puedes hacer un omelette con huevos, jamón y queso. Cocina los huevos batidos y añade el jamón y el queso antes de doblarlo.",
+                "Con arroz puedes hacer arroz frito. Solo necesitas agregar huevo, un poco de salsa de soya y verduras.",
+                "Prueba un pollo a la parmesana: cocina el pollo con tomate y agrega queso por encima antes de gratinar.",
+                "Puedes preparar una ensalada con las verduras o saltearlas con un poco de ajo y aceite."
+            ]
+        },
+        {
+            "tag": "recetas_rapidas",
+            "patterns": [
+                "¿Qué puedo cocinar rápido?",
+                "Quiero una receta fácil",
+                "No tengo mucho tiempo para cocinar",
+                "Dame una idea para cocinar en 10 minutos"
+            ],
+            "responses": [
+                "Haz una ensalada de atún: mezcla atún, tomate, cebolla, aguacate y un poco de limón.",
+                "Un sándwich caliente es rápido: usa pan, jamón, queso y tuesta en una sartén.",
+                "Prueba una tortilla de patatas rápida usando papas pre-cocidas.",
+                "Unos huevos revueltos con espinacas te toman menos de 5 minutos."
+            ]
+        },
+        {
+            "tag": "recetas_dulces",
+            "patterns": [
+                "¿Tienes recetas dulces?",
+                "Quiero hacer algo dulce",
+                "¿Algún postre fácil?",
+                "¿Qué puedo hacer con chocolate?"
+            ],
+            "responses": [
+                "Haz un mug cake: mezcla harina, cacao en polvo, azúcar, huevo y leche en una taza. Cocina en el microondas por 2 minutos.",
+                "Prueba unas galletas rápidas: mezcla avena, plátano y un poco de chocolate, luego hornea por 15 minutos.",
+                "Haz un smoothie dulce con plátano, leche y un toque de miel.",
+                "Puedes derretir chocolate y usarlo como fondue con frutas."
+            ]
+        },
+        {
+            "tag": "preguntas_basicas",
+            "patterns": [
+                "¿Cómo se hace un huevo frito?",
+                "¿Cómo hiervo pasta?",
+                "¿Cuánto arroz necesito para 2 personas?",
+                "¿Cómo hago una pizza fácil?"
+            ],
+            "responses": [
+                "Para un huevo frito perfecto, calienta aceite en una sartén, rompe el huevo y cocina a fuego medio hasta que la clara esté firme.",
+                "Llena una olla con agua, agrega sal y lleva a ebullición. Cocina la pasta durante 8-10 minutos.",
+                "Para 2 personas, necesitas aproximadamente 1 taza de arroz crudo.",
+                "Usa una tortilla integral o pan pita como base. Agrega salsa de tomate, queso y tus ingredientes favoritos, y hornea por 10 minutos."
+            ]
+        },
+        {
+            "tag": "recetas_saludables",
+            "patterns": [
+                "Quiero algo saludable",
+                "¿Qué puedo hacer con espinacas?",
+                "¿Tienes recetas saludables?",
+                "Quiero algo ligero para cenar"
+            ],
+            "responses": [
+                "Haz una ensalada con espinacas, manzana, nueces y queso. Aliña con aceite de oliva y limón.",
+                "Un smoothie verde: licúa espinacas, plátano, manzana y agua. Te tomará 5 minutos.",
+                "Prepara una pechuga de pollo a la plancha con verduras salteadas.",
+                "Unas tostadas con aguacate y tomate son ligeras y deliciosas."
+            ]
+        },
+        {
+            "tag": "tiempo_disponible",
+            "patterns": [
+                "Tengo 20 minutos, ¿qué puedo preparar?",
+                "¿Qué puedo cocinar en 15 minutos?",
+                "No tengo mucho tiempo, dame una receta rápida",
+                "Quiero algo fácil y rápido"
+            ],
+            "responses": [
+                "Con 20 minutos puedes preparar una pasta con salsa de tomate y ajo. Cocina la pasta mientras haces la salsa.",
+                "Haz un sándwich caliente con pan, jamón y queso. Tarda menos de 10 minutos.",
+                "Prueba una tortilla de espinacas: bate huevos, añade espinacas y cocina en una sartén.",
+                "Un salteado de verduras con un poco de arroz ya cocido es rápido y fácil."
+            ]
+        },
+        {
+            "tag": "motivacion",
+            "patterns": [
+                "No sé cocinar, ¿por dónde empiezo?",
+                "Me siento torpe en la cocina",
+                "No sé qué hacer",
+                "¡Se me quemó todo!"
+            ],
+            "responses": [
+                "¡No te preocupes! Hasta el mejor chef empezó con algo simple. Dime qué tienes y te ayudaré.",
+                "Cocinar es cuestión de práctica. Prueba algo fácil, como un sándwich o una ensalada.",
+                "¡Ánimo! Siempre hay opciones fáciles. ¿Qué tienes en tu cocina?",
+                "¡No pasa nada! Intenta algo más sencillo. ¿Qué tal un sándwich o unos huevos?"
+            ]
+        },
+        {
+            "tag": "Tag aprendido 16",
+            "patterns": [
+                "¿Tortilla con cebolla o sin cebolla?"
+            ],
+            "responses": [
+                "Sin cebolla obviamente"
+            ]
+        },
+        {
+            "tag": "Tag aprendido 16",
+            "patterns": [
+                "¿Pizza con piña o sin piña?"
+            ],
+            "responses": [
+                "Con piña esta buena la tarta"
+            ]
+        },
+        {
+            "tag": "Tag aprendido 17",
+            "patterns": [
+                "Me puedes dar una receta sencilla?"
+            ],
+            "responses": [
+                "¿ Que te parece un vaso de agua con hielos ?, es lo mas sencillo que conozco jajaja"
+            ]
+        },
+        {
+            "tag": "Tag aprendido 18",
+            "patterns": [
+                "Pizza con piña o sin piña?"
+            ],
+            "responses": [
+                "La pizza con piña es una tarta muy rica "
+            ]
+        },
+        {
+            "tag": "Tag aprendido 19",
+            "patterns": [
+                "Que puedo ponerme para cenar?"
+            ],
+            "responses": [
+                "Una ensalada con lechiga, tomate, zanahoria es una opción ligera y saludable"
+            ]
+        },
+        {
+            "tag": "Tag aprendido 20",
+            "patterns": [
+                "Que pasa?"
+            ],
+            "responses": [
+                "Un burro por tu casa xD"
+            ]
+        },
+        {
+            "tag": "Tag aprendido 21",
+            "patterns": [
+                "de qué color viste batman"
+            ],
+            "responses": [
+                "batman viste de color negro"
+            ]
+        }
+    ]
+}
